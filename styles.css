@@ -1,0 +1,64 @@
+body {
+    color: black;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.post {
+    background-color: white;
+    width: 400px;
+}
+
+.post-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.html-icono i {
+    font-size: 22px;
+}
+
+.post-header div:nth-child(2) {
+    flex: 1;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.vertical-icono i {
+    font-size: 26px;
+}
+
+.post-img img {
+    width: 100%;
+    max-height: 300px; 
+    object-fit: cover; 
+    display: block;
+}
+
+.post-body {
+    padding: 10px;
+}
+
+.post-icons {
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-bottom: 8px;
+}
+
+.post-icons .left-icons i {
+    margin-right: 2px;
+}
+
+.post-body p {
+    font-size: 14px;
+    line-height: 1.4;
+}
